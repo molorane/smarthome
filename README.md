@@ -17,3 +17,6 @@ FrontEnd Software on the raspberry pi
 4. Bootstrap, FontAwesome
 
 The program depends on sockets to communicate between PHP and Python.
+Python is the server backend  that receives commands from MatrixKeypad as well as PHP to perform commands.
+
+Angular sends ajax requests to PHP and PHP in turn sends instructions to python via a socket. 
